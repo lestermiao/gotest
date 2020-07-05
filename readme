@@ -1,0 +1,9 @@
+1. git clone https://github.com/lestermiao/gotest.git
+2. go get github.com/golang/protobuf
+go get github.com/golang/protobuf/proto
+
+3. sudo snap install protobuf --classic
+
+4. protoc --go_out=plugins=grpc:chat chat.proto
+
+5. go mod init github.com/lestermiao/gotest
